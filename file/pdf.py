@@ -26,11 +26,11 @@ def cat_pdf(dir_path, pdf_dict):
 
 if __name__ == '__main__':
     # Example
-    dir_path = 'C:\\Users\\liujh\\Desktop\\Differential_Equations_with_Mathematica'
+    dir_path = '/home/fm22/Documents/图书馆/Cheet-Sheet/dataquest'
     pdf_dict = IndirectPdfDict(
-        Title='Differential Equations with Mathematica',
+        Title='cheet sheet',
         Author='fm22',
-        Subject='Mathematica',
+        Subject='None',
         Creator='None',
     )
     cat_pdf(dir_path, pdf_dict)
